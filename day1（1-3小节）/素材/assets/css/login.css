@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background:url('/day1（1-3小节）/素材/assets/images/login_bg.jpg')
+    no-repeat center;
+    background-size: cover;    
+}
+
+
+.loginAndRegBox{
+    height: 310px;
+    width: 400px;
+    background-color: rgb(241, 232, 232);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title-box{
+    height: 60px;
+    background: url(/day1（1-3小节）/素材/assets/images/login_title.png)
+    no-repeat center;
+
+}
+
+.reg-box{
+    display: none;
+}
+
+.form2{
+    display: none;
+}
+
+.layui-form{
+    padding: 0 30px;
+}
+
+
+.login-box,.reg-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+.login-box a,.reg-box a{
+    font-size: 12px;
+}
+
+
+
+
+
+.layui-form-item{
+    position: relative;
+}
+
+.layui-input{
+    
+    padding-left: 35px!important;
+}
+
+
+      
+.layui-icon{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
