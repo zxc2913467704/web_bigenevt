@@ -1,5 +1,3 @@
-$(function(){
-
 
      getUserinfo()
 
@@ -11,8 +9,9 @@ $(function(){
            
           if (user.data.user_pic !== null){
                // 渲染图片头像
+               $("text-avatar").hide()
                 $('.layui-nav-img').attr("src",user.data.user_pic).show
-                $("text-avatar").hide()
+                
           }
           else{
                // 渲染文本头像
@@ -24,10 +23,6 @@ $(function(){
 
 
          }
-
-
-
-
 
 
      function getUserinfo(){
@@ -45,6 +40,7 @@ $(function(){
                   }
                   console.log(res)
                   renderAvatar(res )
+                  console.log("父窗口函数已经被调用")
              },
 
           //    响应成功或者失败都需要执行completa函数
@@ -82,4 +78,3 @@ $(function(){
   
 
 
-})

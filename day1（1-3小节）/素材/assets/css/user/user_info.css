@@ -1,0 +1,15 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: rgb(133, 128, 128);
+    padding: 15px;
+}
+
+.layui-form{
+    width: 500px;
+    
+}
